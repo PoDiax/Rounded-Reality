@@ -1,8 +1,4 @@
-/* ==UserStyle==
-@name           Rounded Reality
-@namespace      userstyles.world
-@version        1.0.0
-==/UserStyle== */
+@-moz-document url("shinden.pl"), url-prefix("shinden.pl"), domain("shinden.pl"), regexp("shinden.pl") {
 .top-bar--user #menu-search {
     margin-top: 5px !important;
     margin-bottom: -20px !important;
@@ -447,4 +443,5 @@ h1.page-title {
 
 .spolecznoscinet {
     display: none !important;
+}
 }
