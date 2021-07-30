@@ -345,6 +345,26 @@ a {
     border-radius: 15px;
 }
 
+
+.fansub-ad-info img {
+    border-radius: 15px;
+    max-width: 98%;
+}
+
+.error {
+    border-radius: 15px;
+}
+
+.info {
+    border-radius: 15px;
+}
+
+
+
+/* Ukrywanie reklam(Not Cool)*/
+.takie-tam {
+    display: none;
+}
 /* Kolory */
 .media-list-user-edits textarea {
     background-color: #1f1f1f;
@@ -415,6 +435,10 @@ h1.page-title {
 .data-view-article {
     border-bottom: 1px solid #3c3c3c;
     border-top: 1px solid #3c3c3c;
+}
+
+.info-messages-box {
+    background-color: #1a1a1a;
 }
 
 /* Modyfikacaj układu */
