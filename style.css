@@ -9,7 +9,6 @@ element.style {
 
 
 .top-bar--user button {
-    color: rgb(216, 215, 212);
     background-image: initial;
     background-color: initial;
     border-color: initial;
@@ -32,10 +31,6 @@ div.top-bar:after {
 
 .fancy-bar {
     height: 2px !important;
-}
-
-body {
-    background-color: #1a1a1a !important;
 }
 
 .l-container-primary,
@@ -313,7 +308,6 @@ textarea {
     border-bottom-left-radius: 15px;
 }
 a {
-    color: #d05909;
     text-decoration: none;
 }
 
@@ -336,7 +330,6 @@ a {
 }
 
 .seasons-list a {
-    background: #162a43;
     text-decoration: none;
     border-radius: 15px;
 }
@@ -359,13 +352,42 @@ a {
     border-radius: 15px;
 }
 
-
+.new-slider-wrapper {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
 
 /* Ukrywanie reklam(Not Cool)*/
 .takie-tam {
     display: none;
 }
 /* Kolory */
+
+.top-bar--user button {
+    color: rgb(216, 215, 212);
+}
+
+body {
+    background-color: #1a1a1a !important;
+}
+
+.l-container-primary,
+.l-main-contantainer {
+    background-color: #1a1a1a;
+}
+
+.newTitle span {
+    background: #1a1a1a;
+}
+
+a {
+    color: #d05909;
+}
+
+.seasons-list a {
+    background: #162a43;
+}
+
 .media-list-user-edits textarea {
     background-color: #1f1f1f;
     color: white;
