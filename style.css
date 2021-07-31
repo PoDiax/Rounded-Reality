@@ -357,13 +357,13 @@ a {
     border-bottom-right-radius: 15px;
 }
 
-/* Ukrywanie reklam(Not Cool)*/
+/* Ukrywanie reklam(Działa, ale triggeruje anti adblock)*/
 
 /*
 .takie-tam {
     display: none;
 }
-*/
+/*
 
 /* Kolory */
 
