@@ -357,8 +357,11 @@ a {
     border-bottom-right-radius: 15px;
 }
 
-/* Ukrywanie reklam(Działa, ale triggeruje anti adblock)*/
+.sliderButtons a {
+    border-radius: 15px;
+}
 
+/* Ukrywanie reklam(Działa, ale triggeruje anti adblock)*/
 /*
 .takie-tam {
     display: none;
@@ -366,7 +369,6 @@ a {
 /*
 
 /* Kolory */
-
 .top-bar--user button {
     color: rgb(216, 215, 212);
 }
