@@ -1,6 +1,6 @@
 You need browser extension ( links below )
 
-Chrome/Edge ( Chromium)
+Chrome/Edge ( Chromium )
 https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
 
 Opera
