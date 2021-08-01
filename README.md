@@ -1,5 +1,5 @@
 # Rounded Reality
-Rounded corners for shinden.pl Polish website with anime
+Rounded corners for shinden.pl "Polish website with anime"
 
 
 ## Preview
