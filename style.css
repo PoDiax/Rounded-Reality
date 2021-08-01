@@ -156,6 +156,7 @@ div.top-bar:after {
 .user-navigation li:focus {
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+    border-bottom-left-radius: 0px;
 }
 
 .user-navigation li.active ul a:hover {
@@ -359,6 +360,14 @@ a {
 
 .sliderButtons a {
     border-radius: 15px;
+}
+
+/* May be removed */
+body, input, select, textarea {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 /* Ukrywanie reklam(Działa, ale triggeruje anti adblock)*/
