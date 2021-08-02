@@ -1,4 +1,4 @@
-### 1. First download this extension
+### 1. First download extension
 ####    Tampermonkey or other extension thats allow to use scripts.
 
 ####  Chrome:
