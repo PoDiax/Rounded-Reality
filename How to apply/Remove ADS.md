@@ -16,7 +16,7 @@
 
 ### 2. After installing, click link below and your extension should detect script (Press Install)
 
-#### Auto install:
+#### Auto [install](https://userscripts.adtidy.org/release/popup-blocker/2.5/popupblocker.user.js):
     https://userscripts.adtidy.org/release/popup-blocker/2.5/popupblocker.user.js
     
 #### Source:
