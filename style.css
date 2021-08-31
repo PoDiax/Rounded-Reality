@@ -538,13 +538,6 @@ h1.page-title {
     transition-property: transform;
 }
 
-.media:hover .img:hover,
-.box-title:hover .icon:hover, .themed-icon:hover {
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-}
-
-
 dl.info-aside-list dd{
     transition: all .2s ease-in-out;
 }
