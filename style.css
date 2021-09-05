@@ -366,6 +366,10 @@ a {
     border-radius: 15px;
 }
 
+.title-box-list .media-title-cover img {
+    border-radius: 10px;
+}
+
 /* May be removed */
 body, input, select, textarea {
     border-top-left-radius: 15px;
@@ -536,6 +540,15 @@ h1.page-title {
     overflow: hidden;
     transition-duration: 0.8s;
     transition-property: transform;
+}
+
+.title-box-list .media-title-cover img {
+    transition: all .2s ease-in-out;
+}
+
+.title-box-list .media-title-cover:hover img {
+    border-radius: 20px;
+    transform: scale(1.05);
 }
 
 dl.info-aside-list dd{
