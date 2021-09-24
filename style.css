@@ -22,6 +22,7 @@ element.style {
 
 div.top-bar:after {
     content: "Themed by PoDiax";
+    text-shadow: 1.5px 1px #725cef;
     padding: 0px 0px 0px 100px;
     margin: 0px 0px 0px 0px;
     font-style: italic;
@@ -370,6 +371,30 @@ a {
     border-radius: 10px;
 }
 
+audio, canvas, img, video {
+    border-radius: 15px;
+}
+
+.parent-on-hover .on-hover-button {
+    border-radius: 15px;
+}
+
+.to-watch h2 {
+    border-radius: 15px;
+}
+
+.to-watch .media-item aside a {
+    border-radius: 15px;
+}
+
+.top-bar--nav-user a, .top-bar--nav-user li {
+    border-radius: 15px;
+}
+
+.top-bar--nav-user .alerts-cnt, .top-bar--nav-user .sprite, .top-button--user .alerts-cnt, .top-button--user .sprite {
+    border-radius: 15px;
+}
+
 /* May be removed */
 body, input, select, textarea {
     border-top-left-radius: 15px;
@@ -378,7 +403,7 @@ body, input, select, textarea {
     border-bottom-right-radius: 15px;
 }
 
-/* Kolory */
+/* Colors */
 .top-bar--user button {
     color: rgb(216, 215, 212);
 }
@@ -659,4 +684,41 @@ dl.info-aside-list:hover dd:hover {
   41% { transform: rotate(1deg); }
   43% { transform: rotate(0); }
   100% { transform: rotate(0); }
+}
+
+/* Waifu */
+
+.waifu-packet .form input[type=radio] {
+    cursor: pointer;
+}
+
+.waifu-packet .form .submit-row button {
+    padding: .6em;
+    border-radius: 15px;
+    border: 0;
+}
+
+.waifu-packet .form .submit-row {
+    text-align: -webkit-center;
+    background-color: hsl(145, 61%, 59%);
+    padding: .2rem;
+    border-radius: 15px;
+}
+
+.waifu-packet .achv h2.big {
+    text-align: -webkit-center;
+}
+
+.waifu-packet h2 {
+    text-align: -webkit-center;
+}
+
+.waifu-packet .modal-layer .modal-body {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+h1.page-title {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
