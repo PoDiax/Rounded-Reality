@@ -394,6 +394,10 @@ audio, canvas, img, video {
     border-radius: 15px;
 }
 
+.form-login {
+    border-radius: 15px;
+}
+
 /* May be removed */
 input, select, textarea {
     border-top-left-radius: 15px;
@@ -508,7 +512,11 @@ h1.page-title {
     background-color: #1a1a1a;
 }
 
-/* Modyfikacaj układu */
+.owl-next:hover, .owl-prev:hover {
+    background-color: rgb(57 57 57 / 77%);
+}
+
+/* Layout */
 .posts-last .add-post textarea {
     text-align: center;
 }
