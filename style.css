@@ -268,7 +268,6 @@ section.profile .status_bar {
     border-radius: 15px;
 }
 
-body,
 input,
 select,
 textarea {
@@ -396,7 +395,7 @@ audio, canvas, img, video {
 }
 
 /* May be removed */
-body, input, select, textarea {
+input, select, textarea {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -407,6 +406,11 @@ body, input, select, textarea {
 .top-bar--user button {
     color: rgb(216, 215, 212);
 }
+
+.top-bar{
+    background-color: rgba(0,0,0,0.6);
+}
+
 
 body {
     background-color: #1a1a1a !important;
