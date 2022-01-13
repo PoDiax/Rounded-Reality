@@ -14,11 +14,6 @@
 
 }
 
-.top-bar--user #menu-search {
-    margin-top: 5px !important;
-    margin-bottom: -20px !important;
-}
-
 element.style {
     border-radius: var(--roundness-15) !important;
 }
@@ -425,15 +420,26 @@ input, select, textarea {
     border-bottom-right-radius: var(--roundness-15);
 }
 
-/* Colors */
+/* Colors & Filters */
 .top-bar--user button {
     color: rgb(216, 215, 212);
 }
 
-.top-bar{
-    background-color: rgba(0,0,0,0.6);
+    /* Input */
+#menu-search span input[type=text]{
+ opacity:0.6 !important;
 }
 
+
+    /* Top bar */
+.l-container-primary .logo .top-bar{
+ background-color:rgba(0,0,0,0.7);
+}
+
+    /* Top button  user */
+.top-bar .top-bar--user .top-button--user{
+ top:-4px;
+}
 
 body {
     background-color: var(--black-light) !important;
@@ -540,6 +546,19 @@ h1.page-title {
     margin-top: 4px;
 }
 
+
+    /* Span Tag */
+#menu-search fieldset > span{
+ top:2px !important;
+}
+
+
+    /* Logo */
+.l-container-primary header{
+ margin-bottom:5px;
+}
+
+
 .posts-last .add-post textarea {
     text-align: center;
 }
@@ -553,10 +572,6 @@ h1.page-title {
     border-right: none;
 }
 
-.l-container-primary,
-.l-main-contantainer {
-    padding-top: 5px;
-}
 
 .box .box-title {
     padding-bottom: 2px;
@@ -690,6 +705,7 @@ dl.info-aside-list:hover dd:hover {
   37% { -moz-transform: rotate(2deg); }
   39% { -moz-transform: rotate(-1deg); }
   41% { -moz-transform: rotate(1deg); }
+
   43% { -moz-transform: rotate(0); }
   100% { -moz-transform: rotate(0); }
 }
