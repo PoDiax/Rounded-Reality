@@ -2,6 +2,7 @@
 :root {
     --roundness-15: 15px;
     --roundness-10: 10px;
+    --roundness-8: 8px;
     --media-title-cover-img: 20px;
     
     /*Colors*/
@@ -9,6 +10,7 @@
     --black-light-d: #1f1f1f;
     --text-color: #d05909;
     --box-user-profile: #131313;
+    --info-aside: #1e1e1e;
 
 }
 
@@ -129,12 +131,12 @@ div.top-bar:after {
 }
 
 .character {
-    border-radius: 8px !important;
+    border-radius: var(--roundness-8) !important;
 }
 
 .staff {
     padding-right: 5px;
-    border-radius: 8px !important;
+    border-radius: var(--roundness-8) !important;
 }
 
 .tags li a {
@@ -150,7 +152,7 @@ div.top-bar:after {
 }
 
 .av-rank {
-    border-radius: 8px !important;
+    border-radius: var(--roundness-8) !important;
 }
 
 .info-aside-img {
@@ -202,14 +204,14 @@ div.top-bar:after {
 }
 
 .media-item .media-title-cover {
-    border-radius: 8px;
+    border-radius: var(--roundness-8);
 }
 
 section.profile .media-title-cover img {
-    border-radius: 8px;
+    border-radius: var(--roundness-8);
 }
 .media-comment > .img {
-    border-radius: 8px;
+    border-radius: var(--roundness-8);
 }
 .comment-form textarea {
     border-radius: var(--roundness-15);
@@ -219,7 +221,7 @@ section.profile .media-title-cover img {
 }
 
 section.profile .status_bar {
-    border-radius: 8px;
+    border-radius: var(--roundness-8);
 }
 
 .creator-form textarea {
@@ -496,14 +498,14 @@ h1.page-title {
 }
 
 .info-aside {
-    background-color: #1e1e1e;
+    background-color: var(--info-aside);
     border-radius: var(--roundness-15);
 }
 
 .box-bottom {
-    background-color: #1e1e1e;
+    background-color: var(--info-aside);
     background-image: -webkit-gradient(linear, left top, left bottom, from(var(--black-light)), to(var(--black-light)));
-    background-image: linear-gradient(top, #1e1e1e, #1e1e1e);
+    background-image: linear-gradient(top, var(--info-aside), var(--info-aside));
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorStr='var(--black-light)', EndColorStr='var(--black-light)');
 }
 
@@ -688,7 +690,6 @@ dl.info-aside-list:hover dd:hover {
   37% { -moz-transform: rotate(2deg); }
   39% { -moz-transform: rotate(-1deg); }
   41% { -moz-transform: rotate(1deg); }
-
   43% { -moz-transform: rotate(0); }
   100% { -moz-transform: rotate(0); }
 }
