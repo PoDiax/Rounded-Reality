@@ -20,8 +20,6 @@ element.style {
 
 
 .top-bar--user button {
-    background-image: initial;
-    background-color: initial;
     border-color: initial;
     display: none !important;
 }
@@ -438,7 +436,7 @@ input, select, textarea {
 
     /* Top button  user */
 .top-bar .top-bar--user .top-button--user{
- top:-4px;
+ top:-2px;
 }
 
 body {
