@@ -1,6 +1,10 @@
 # Rounded Reality
 Rounded corners for shinden.pl "Polish website with anime"
 
+## If you want to preview this before proceeding, check it out here: http://podiax.github.io/Shinden-Rounded-Reality/
+  Please note that this isn't an official Shinden website; it's presented through an iframe. 
+  Therefore, refrain from logging in on this page.
+
 ## How to apply?
   Follow the pictures [HERE](https://github.com/PoDiax/Shinden-Rounded-Reality/tree/main/How%20to%20apply)
   
